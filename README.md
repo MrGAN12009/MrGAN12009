@@ -138,7 +138,7 @@
 
 - Telegram: https://t.me/mrgan12009  
 - Email: daniilsobolev0510@gmail.com
-- Website: https://dsi-group.online 
+- Website: https://dsi-group.online (на починке)
 
 ---
 

@@ -1,57 +1,146 @@
-## Hi, I'm Daniil — Vibe Coder & Backend Engineer
+# Daniil Sobolev  
+### Backend Engineer · AI & Automation
 
-Я собираю **AI-ботов**, автоматизации и аккуратный backend для digital-бизнеса.  
-Фокус — Telegram, OpenAI, интеграции с CRM и платёжками.
+Я backend-разработчик, специализирующийся на **AI-ботах**, **Telegram-инфраструктуре**, **REST / gRPC API** и автоматизации digital-бизнеса.
 
-- **Current focus**: AI-агенты, Telegram-инфраструктура, автоматизация бизнес-процессов  
-- **Stack**: Python · Flask / FastAPI · Aiogram · PostgreSQL · Redis · OpenAI API  
-- **Mindset**: продуктовое мышление, быстрое прототипирование, чистый код
+Проектирую системы, которые:
+- обрабатывают данные
+- интегрируются с CRM и платёжными системами
+- масштабируются
+- остаются читаемыми и поддерживаемыми
 
----
-
-### 🛠️ Tech & Tools
-
-- **Backend**: Python, Flask, FastAPI, REST, Webhooks
-- **Bots & Automations**: Aiogram 3, Telegram Bot API, Celery/RQ, парсеры
-- **Data & Infra**: PostgreSQL, Redis, Docker (по необходимости)
-- **AI**: OpenAI API, LLM-промптинг, генерация текстов, speech-to-text
-- **Other**: Git, GitHub Actions, Linux, CI/CD базового уровня
+Фокус — практичное применение AI в реальных продуктах.
 
 ---
 
-### 🚀 Selected Projects
+## 🔭 Current Focus
 
-- **Telegram-бот коммерческих предложений (OpenAI)**  
-  Генерация персональных КП из CRM-данных + экспорт в PDF.  
-  `Python · Aiogram · OpenAI API · PostgreSQL`  
-  repo: `[link-to-repo]`
-
-- **Чат-бот поддержки с CRM интеграцией**  
-  FAQ, создание тикетов и связка с менеджерами.  
-  `Python · FastAPI · Aiogram · CRM API`  
-  repo: `[link-to-repo]`
-
-- **Нейро-бот для соцсетей (генерация постов)**  
-  Контент-планы и посты под голос бренда.  
-  `Python · Aiogram · OpenAI API · Redis`  
-  repo: `[link-to-repo]`
-
-> Больше проектов — в моём [resume-site](https://example.com) и [resume-bot](https://t.me/your_resume_bot).
+- AI-агенты и LLM-интеграции  
+- Telegram-экосистема (боты, WebApp, webhook-архитектура)  
+- Backend-архитектура для SaaS и внутренних CRM  
+- Автоматизация бизнес-процессов  
 
 ---
 
-### 📊 GitHub Stats
+## 🛠 Tech Stack
 
-<!-- Заменить username на свой -->
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-github&show_icons=true&theme=transparent)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github&layout=compact&theme=transparent)
+### Backend
+- Python
+- FastAPI / Flask
+- REST API
+- Webhooks
+- gRPC (базовый уровень)
+
+### Bots & Async
+- Aiogram 3
+- Telegram Bot API
+- Asyncio
+- Celery / RQ
+- Background jobs
+
+### Databases & Infra
+- PostgreSQL
+- Redis
+- Docker
+- Linux
+- GitHub Actions (CI/CD)
+
+### AI
+- OpenAI API
+- Prompt Engineering
+- AI-оценка диалогов
+- Генерация документов (PDF)
+- Speech-to-Text пайплайны
 
 ---
 
-### 📬 Contacts
+## 🚀 Selected Projects
 
-- **Telegram**: [@your_username](https://t.me/your_username)  
-- **Email**: `daniil.vibe.coder@example.com`  
-- **Website**: [resume-site](https://example.com)
+### 🔹 AI Telegram Bot для генерации коммерческих предложений
 
-_Опишите пару предложений про задачу и стек — вернусь с идеями и архитектурой._
+Автоматическая генерация персонализированных КП на основе данных из CRM.
+
+**Функционал:**
+- сбор данных через Telegram
+- интеграция с CRM
+- генерация текста через OpenAI
+- экспорт в PDF
+- хранение истории в PostgreSQL
+
+`Python · Aiogram · FastAPI · OpenAI API · PostgreSQL`
+
+---
+
+### 🔹 CRM + Telegram Support Bot
+
+Система обработки заявок с маршрутизацией менеджерам.
+
+**Функционал:**
+- FAQ-база
+- создание тикетов
+- интеграция с CRM
+- статусная модель заявок
+- логирование действий
+
+`Python · FastAPI · Aiogram · PostgreSQL · Redis`
+
+---
+
+### 🔹 AI-контент-бот для соцсетей
+
+Автогенерация постов, контент-планов и промптов для изображений.
+
+**Функционал:**
+- генерация постов
+- ограничение токенов
+- подготовка промптов для image-generation
+- автоматическая публикация
+- кэширование через Redis
+
+`Python · Aiogram · OpenAI API · Redis · n8n`
+
+---
+
+### 🔹 Голосовой AI Pipeline (R&D)
+
+Потоковое распознавание речи + анализ диалогов менеджеров.
+
+**Функционал:**
+- streaming STT
+- разделение ролей спикеров
+- оценка качества работы менеджера
+- аналитическая модель
+
+`Python · Asyncio · OpenAI · Audio processing`
+
+---
+
+## 🧠 Engineering Principles
+
+- Чистая архитектура  
+- Разделение ответственности  
+- Асинхронный backend  
+- Минимизация технического долга  
+- Продуктовое мышление  
+
+Я не просто пишу код — я проектирую систему.
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mrgan12009&show_icons=true&theme=transparent)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mrgan12009&layout=compact&theme=transparent)
+
+---
+
+## 📬 Contact
+
+- Telegram: https://t.me/mrgan12009  
+- Email: daniilsobolev0510@gmail.com
+- Website: https://dsi-group.online 
+
+---
+
+Если у вас есть задача — опишите стек и контекст.  
+Я вернусь с архитектурным предложением и планом реализации.
